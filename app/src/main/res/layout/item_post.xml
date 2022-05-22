@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_post"
+    android:background="@drawable/contorno"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginBottom="4dp"
+    android:elevation="5dp">
+
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="20sp"
+        android:text="@string/title_post"/>
+
+    <TextView
+        android:id="@+id/post_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/post_title"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="@string/body_post"/>
+
+    <ImageButton
+        android:id="@+id/btn_curtida"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_curtida"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_below="@id/post_body"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/quantidade_curtida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_body"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/btn_curtida"
+        android:text="@string/quantidade_number"/>
+
+    <ImageButton
+        android:id="@+id/btn_comentary"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_comentary"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_below="@id/post_body"
+        android:layout_toEndOf="@id/btn_curtida"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/quantidade_comentary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_body"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/btn_comentary"
+        android:text="@string/quantidade_number"/>
+
+    <ImageButton
+        android:id="@+id/btn_shared"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_share"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_below="@id/post_body"
+        android:layout_toEndOf="@id/btn_comentary"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/quantidade_shared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_body"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/btn_shared"
+        android:text="@string/quantidade_number"/>
+
+</RelativeLayout>

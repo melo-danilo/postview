@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PostView</string>
+    <string name="title_post">title</string>
+    <string name="body_post">body</string>
+    <string name="title_activity_post">Postagens Recentes</string>
+    <string name="todo">TODO</string>
+    <string name="quantidade_number">5</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="o_que_a_galera_comentou_sobre_post">O que a galera comentou sobre post</string>
+    <string name="post_id">post_id\'</string>
+</resources>
