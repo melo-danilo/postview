@@ -1,2 +1,0 @@
-# postview
-Aplicativo em kotlin
