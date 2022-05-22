@@ -5,7 +5,7 @@
 
 ### Recursos utilizados
 
-- ``kotlin:1.6``
+- ``kotlin:1.5.30``
 - ``retrofit:2.9.0``
 - ``converter-gson:2.9.0``
 - ``picasso:2.71828``
