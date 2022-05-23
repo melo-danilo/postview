@@ -55,7 +55,6 @@ class PostActivity : AppCompatActivity(), OnPostClickListener {
         val gson = Gson()
 
         perfis = gson.fromJson(jsonFileString, listPersonType)
-        perfis.forEachIndexed { idx, person -> Log.d("data", "> Item $idx:\n$person") }
 
     }
 
